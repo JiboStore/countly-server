@@ -1,0 +1,9 @@
+Ubuntu Virtual Box
+-. should use ubuntu ver 12.04 or xx.04 since .04 indicates long term version (more stable)
+-. open virtual box settings, make sure network adapter is enabled and set to "Bridged Adapter", other network settings can be left at default
+-. open terminal and install openssh-server by issue-ing this command:
+sudo apt-get install openssh-server
+-. determine your local ip address with this command: ifconfig
+-. open filezilla and setup a new sftp connection to the ipaddress indicated in the previous step, at port 22
+username should be: ubuntu [your login credential]
+password should be: reverse
